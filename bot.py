@@ -139,7 +139,7 @@ model = train_model(training_data)
 scores = []
 choices = []
 
-for eacg_game in range(10):
+for eacg_game in range(100):
 	score = 0
 	game_memory = []
 	prev_obs = []
